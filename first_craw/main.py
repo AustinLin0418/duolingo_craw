@@ -2,7 +2,6 @@ from fastapi import FastAPI, HTTPException
 from curl_cffi import requests
 
 app = FastAPI()
-
 # ================= 填入你的真實資料 =================
 USERNAME = 'ur.austinlin'
 JWT_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjYzMDcyMDAwMDAsImlhdCI6MCwic3ViIjo5MjQ3OTQ4MDMyMjczODd9.Abh55Blwr61poojJD02O4__c70bL03qaZtdnLOEL5OU'
